@@ -1,0 +1,481 @@
+[17-Jul-2016 10:49:51 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/getmezej/public_html/ws/saveData.php on line 22
+[17-Jul-2016 10:49:52 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/getmezej/public_html/ws/saveData.php on line 22
+[17-Jul-2016 10:54:56 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 10:55:01 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:02:21 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:02:40 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:03:23 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:07:30 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:07:30 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:07:45 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:07:45 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:10:19 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:10:19 Etc/GMT] PHP Warning:  fclose(): 6 is not a valid stream resource in /home/getmezej/public_html/ws/saveData.php on line 166
+[17-Jul-2016 11:10:40 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:10:40 Etc/GMT] PHP Warning:  fclose(): 6 is not a valid stream resource in /home/getmezej/public_html/ws/saveData.php on line 166
+[17-Jul-2016 11:12:41 Etc/GMT] PHP Notice:  Array to string conversion in /home/getmezej/public_html/ws/saveData.php on line 41
+[17-Jul-2016 11:26:28 Etc/GMT] PHP Notice:  Undefined index: data in /home/getmezej/public_html/ws/saveData.php on line 12
+[17-Jul-2016 11:44:23 Etc/GMT] PHP Notice:  Undefined index: data in /home/getmezej/public_html/ws/saveData.php on line 12
+[17-Jul-2016 14:35:37 Etc/GMT] PHP Notice:  Undefined index: skey in /home/getmezej/public_html/ws/saveData.php on line 10
+[22-Jul-2016 12:53:54 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE `user` SET `major`='Hong Kong',`intro`='Fill in the self introduction!Fil' at line 1' in /home/getmezej/public_html/ws/saveData.php:41
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 41
+[22-Jul-2016 12:54:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE `user` SET `major`='Input your Major/OccupationInput your Major/Occupatio' at line 1' in /home/getmezej/public_html/ws/saveData.php:41
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 41
+[22-Jul-2016 12:54:48 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE `user` SET `major`='Hong Kong',`intro`='Fill in the self introduction!Fil' at line 1' in /home/getmezej/public_html/ws/saveData.php:41
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 41
+[22-Jul-2016 13:24:41 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'getmezej_getmecvdb.works' doesn't exist' in /home/getmezej/public_html/ws/saveData.php:163
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(163): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 163
+[22-Jul-2016 14:33:19 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 298
+[22-Jul-2016 14:41:50 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'getmezej_getmecvdb.works' doesn't exist' in /home/getmezej/public_html/ws/saveData.php:163
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(163): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 163
+[22-Jul-2016 15:56:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '$file' (T_VARIABLE) in /home/getmezej/public_html/ws/savePDF.php on line 22
+[24-Jul-2016 09:14:07 Etc/GMT] PHP Fatal error:  Class 'TCPDF' not found in /home/getmezej/public_html/ws/savePDF.php on line 14
+[24-Jul-2016 09:15:27 Etc/GMT] PHP Fatal error:  Class 'TCPDF' not found in /home/getmezej/public_html/ws/savePDF.php on line 15
+[24-Jul-2016 09:19:16 Etc/GMT] PHP Notice:  Undefined variable: tcpdf_include_path in /home/getmezej/public_html/ws/savePDF.php on line 9
+[24-Jul-2016 09:19:16 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:19:16 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:19:47 Etc/GMT] PHP Notice:  Undefined variable: tcpdf_include_path in /home/getmezej/public_html/ws/savePDF.php on line 9
+[24-Jul-2016 09:19:47 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:19:47 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:20:52 Etc/GMT] PHP Notice:  Undefined variable: tcpdf_include_path in /home/getmezej/public_html/ws/savePDF.php on line 9
+[24-Jul-2016 09:20:52 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:20:52 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:21:43 Etc/GMT] PHP Notice:  Undefined variable: tcpdf_include_path in /home/getmezej/public_html/ws/savePDF.php on line 9
+[24-Jul-2016 09:21:43 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:21:43 Etc/GMT] PHP Warning:  imagecreatefrompng(images/logo_example.png): failed to open stream: No such file or directory in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 7033
+[24-Jul-2016 09:25:29 Etc/GMT] PHP Notice:  Undefined variable: tcpdf_include_path in /home/getmezej/public_html/ws/savePDF.php on line 9
+[24-Jul-2016 09:27:14 Etc/GMT] PHP Notice:  Undefined variable: tcpdf_include_path in /home/getmezej/public_html/ws/savePDF.php on line 9
+[25-Jul-2016 13:42:46 Etc/GMT] PHP Warning:  fopen(): remote host file access not supported, file://example_006.pdf in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:42:46 Etc/GMT] PHP Warning:  fopen(file://example_006.pdf): failed to open stream: no suitable wrapper could be found in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:43:07 Etc/GMT] PHP Warning:  fopen(): remote host file access not supported, file://../cv/pdf/example_006.pdf in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:43:07 Etc/GMT] PHP Warning:  fopen(file://../cv/pdf/example_006.pdf): failed to open stream: no suitable wrapper could be found in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:43:45 Etc/GMT] PHP Warning:  fopen(): remote host file access not supported, file://../cv/pdf/example_006.pdf in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:43:45 Etc/GMT] PHP Warning:  fopen(file://../cv/pdf/example_006.pdf): failed to open stream: no suitable wrapper could be found in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:45:19 Etc/GMT] PHP Warning:  fopen(): remote host file access not supported, file://../cv/pdf/example_006.pdf in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:45:19 Etc/GMT] PHP Warning:  fopen(file://../cv/pdf/example_006.pdf): failed to open stream: no suitable wrapper could be found in /home/getmezej/public_html/lib/tcpdf/include/tcpdf_static.php on line 1854
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 13:51:10 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[25-Jul-2016 14:04:40 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:22 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:22 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:22 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:13:23 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:14:56 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:53 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 02:15:54 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 14:32:21 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 6
+[26-Jul-2016 14:32:21 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:32:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:32:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:32:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:32:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:33:13 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 6
+[26-Jul-2016 14:33:13 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:33:13 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:33:13 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:33:13 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:33:13 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:33:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:33:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:33:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:33:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:34:58 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 6
+[26-Jul-2016 14:34:58 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:34:58 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:34:58 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:34:58 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:34:58 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:46:24 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 5
+[26-Jul-2016 14:46:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:46:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:46:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:46:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:47:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:47:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 21
+[26-Jul-2016 14:47:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 26
+[26-Jul-2016 14:47:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 31
+[26-Jul-2016 14:48:31 Etc/GMT] PHP Notice:  Undefined variable: _SESSION in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:48:31 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:48:31 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:48:31 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:48:31 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:48:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:48:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:48:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:48:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:49:02 Etc/GMT] PHP Notice:  Undefined variable: _SESSION in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:49:02 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:49:02 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:49:02 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:49:02 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:49:23 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:49:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:49:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:49:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:49:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:49:37 Etc/GMT] PHP Notice:  Undefined index: SKEY in /home/getmezej/public_html/ws/pdf.php on line 16
+[26-Jul-2016 14:49:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:49:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:49:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:49:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:49:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:49:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:49:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:49:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:49:55 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:49:55 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:49:55 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:49:55 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:50:08 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/getmezej/public_html/ws/pdf.php on line 14
+[26-Jul-2016 14:50:10 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/getmezej/public_html/ws/pdf.php on line 14
+[26-Jul-2016 14:50:42 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/getmezej/public_html/ws/pdf.php on line 14
+[26-Jul-2016 14:50:43 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/getmezej/public_html/ws/pdf.php on line 14
+[26-Jul-2016 14:50:51 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:50:51 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:50:51 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:50:51 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:51:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:51:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:51:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:51:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:51:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:51:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:51:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:51:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:51:39 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:51:39 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:51:39 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:51:39 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:51:40 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:51:40 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:51:40 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:51:40 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:51:52 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf.php on line 13
+[26-Jul-2016 14:51:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:51:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:51:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:51:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:52:06 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf.php on line 13
+[26-Jul-2016 14:52:06 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf.php on line 14
+[26-Jul-2016 14:52:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:52:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:52:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:52:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:52:17 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:52:17 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:52:17 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:52:17 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:52:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:52:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:52:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:52:24 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:52:33 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:52:33 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:52:33 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:52:33 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:52:36 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf.php on line 14
+[26-Jul-2016 14:52:36 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 20
+[26-Jul-2016 14:52:36 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 25
+[26-Jul-2016 14:52:36 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 30
+[26-Jul-2016 14:52:36 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 35
+[26-Jul-2016 14:52:56 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf.php on line 13
+[26-Jul-2016 14:52:56 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:52:56 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:52:56 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:52:56 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:52:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:52:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:52:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:52:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:53:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:53:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:53:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:53:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:53:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:53:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:53:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:53:59 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:54:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:54:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:54:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:54:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:55:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:55:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:55:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:55:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:55:18 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:55:18 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:55:18 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:55:18 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:55:20 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:55:20 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:55:20 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:55:20 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:56:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:56:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:56:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:56:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:57:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:57:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:57:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:57:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:58:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:58:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:58:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:58:37 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:59:04 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:59:04 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:59:04 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:59:04 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:59:12 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:59:12 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:59:12 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:59:12 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 14:59:22 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 14:59:22 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 14:59:22 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 14:59:22 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:00:03 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:00:03 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:00:03 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:00:03 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:00:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:00:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:00:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:00:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:00:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:00:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:00:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:00:47 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:01:30 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:01:30 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:01:30 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:01:30 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:02:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:02:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:02:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:02:41 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:05:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:05:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:05:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:05:49 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:06:14 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:06:14 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:06:14 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:06:14 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:06:32 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:06:32 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:06:32 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:06:32 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:06:32 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 15:06:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:06:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:06:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:06:50 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:07:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:07:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:07:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:07:23 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:08:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:08:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:08:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:08:46 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:08:48 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:08:48 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:08:48 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:08:48 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:09:15 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:09:15 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:09:15 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:09:15 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:09:15 Etc/GMT] PHP Notice:  Undefined index: type in /home/getmezej/public_html/lib/tcpdf/tcpdf.php on line 19103
+[26-Jul-2016 15:21:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:21:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:21:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:21:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:22:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:22:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:22:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:22:10 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:29:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in /home/getmezej/public_html/ws/savePDFv2.php on line 2
+[26-Jul-2016 15:30:51 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:30:51 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:30:51 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:30:51 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:31:11 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 17
+[26-Jul-2016 15:31:11 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 22
+[26-Jul-2016 15:31:11 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 27
+[26-Jul-2016 15:31:11 Etc/GMT] PHP Notice:  Undefined property: stdClass::$id in /home/getmezej/public_html/ws/pdf.php on line 32
+[26-Jul-2016 15:34:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in /home/getmezej/public_html/ws/savePDFv2.php on line 2
+[26-Jul-2016 15:34:47 Etc/GMT] PHP Parse error:  syntax error, unexpected ''..\lib\wkhtmltox\include\wkht' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in /home/getmezej/public_html/ws/savePDFv2.php on line 2
+[26-Jul-2016 15:38:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ''..\lib\wkhtmltox\include\wkht' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in /home/getmezej/public_html/ws/savePDFv2.php on line 2
+[26-Jul-2016 15:51:34 Etc/GMT] PHP Fatal error:  Class 'Pdf' not found in /home/getmezej/public_html/ws/savePDFv2.php on line 13
+[29-Jul-2016 16:49:12 Etc/GMT] PHP Notice:  Undefined index: lid in /home/getmezej/public_html/ws/saveData.php on line 357
+[29-Jul-2016 16:49:12 Etc/GMT] PHP Notice:  Undefined index: lv in /home/getmezej/public_html/ws/saveData.php on line 389
+[29-Jul-2016 16:49:12 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 399
+[29-Jul-2016 16:51:33 Etc/GMT] PHP Notice:  Undefined index: lv in /home/getmezej/public_html/ws/saveData.php on line 361
+[29-Jul-2016 16:51:33 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'lv' cannot be null' in /home/getmezej/public_html/ws/saveData.php:369
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(369): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 369
+[30-Jul-2016 10:13:20 Etc/GMT] PHP Notice:  Undefined index: data in /home/getmezej/public_html/ws/saveData.php on line 12
+[30-Jul-2016 13:29:03 Etc/GMT] PHP Warning:  move_uploaded_file(img/GO002.png): failed to open stream: No such file or directory in /home/getmezej/public_html/ws/profileimg.php on line 37
+[30-Jul-2016 13:29:03 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWXqsnc' to 'img/GO002.png' in /home/getmezej/public_html/ws/profileimg.php on line 37
+[30-Jul-2016 13:29:43 Etc/GMT] PHP Warning:  move_uploaded_file(img/GO002.png): failed to open stream: No such file or directory in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 13:29:43 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFLoxlO' to 'img/GO002.png' in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 13:30:03 Etc/GMT] PHP Warning:  move_uploaded_file(img/GO002.png): failed to open stream: No such file or directory in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 13:30:03 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0q6hhg' to 'img/GO002.png' in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 13:57:23 Etc/GMT] PHP Warning:  getimagesize(img/GO002.png): failed to open stream: No such file or directory in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 13:59:30 Etc/GMT] PHP Notice:  Undefined variable: tmpName in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 13:59:30 Etc/GMT] PHP Warning:  getimagesize(): Filename cannot be empty in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:03:12 Etc/GMT] PHP Notice:  Undefined variable: tmpName in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:03:12 Etc/GMT] PHP Warning:  getimagesize(): Filename cannot be empty in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:03:41 Etc/GMT] PHP Notice:  Undefined variable: tmpName in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:03:41 Etc/GMT] PHP Warning:  getimagesize(): Filename cannot be empty in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:04:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/profileimg.php on line 37
+[30-Jul-2016 14:35:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/profileimg.php on line 37
+[30-Jul-2016 14:38:40 Etc/GMT] PHP Notice:  Undefined variable: tmpName in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:38:40 Etc/GMT] PHP Warning:  getimagesize(): Filename cannot be empty in /home/getmezej/public_html/ws/profileimg.php on line 34
+[30-Jul-2016 14:54:48 Etc/GMT] PHP Notice:  Undefined index: userfile in /home/getmezej/public_html/ws/profileimg.php on line 45
+[30-Jul-2016 15:02:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '$uploaddir' (T_VARIABLE) in /home/getmezej/public_html/ws/profileimg.php on line 45
+[30-Jul-2016 15:02:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '$uploaddir' (T_VARIABLE) in /home/getmezej/public_html/ws/profileimg.php on line 45
+[30-Jul-2016 15:04:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '$uploaddir' (T_VARIABLE) in /home/getmezej/public_html/ws/profileimg.php on line 45
+[30-Jul-2016 15:08:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting ')' in /home/getmezej/public_html/ws/profileimg.php on line 55
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 19
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 24
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 29
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 34
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 39
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 44
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined variable: skill in /home/getmezej/public_html/ws/pdf2.php on line 83
+[30-Jul-2016 16:08:11 Etc/GMT] PHP Notice:  Undefined variable: _SESSION in /home/getmezej/public_html/ws/pdf2.php on line 207
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 19
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 24
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 29
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 34
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 39
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 44
+[30-Jul-2016 16:08:52 Etc/GMT] PHP Notice:  Undefined variable: skill in /home/getmezej/public_html/ws/pdf2.php on line 83
+[30-Jul-2016 16:10:07 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 19
+[30-Jul-2016 16:10:07 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 24
+[30-Jul-2016 16:10:07 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 29
+[30-Jul-2016 16:10:07 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 34
+[30-Jul-2016 16:10:07 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 39
+[30-Jul-2016 16:10:07 Etc/GMT] PHP Notice:  Undefined index: id in /home/getmezej/public_html/ws/pdf2.php on line 44
+[31-Jul-2016 04:19:58 Etc/GMT] PHP Notice:  Undefined index: skName in /home/getmezej/public_html/ws/saveData.php on line 475
+[31-Jul-2016 04:19:58 Etc/GMT] PHP Notice:  Undefined index: skListPos in /home/getmezej/public_html/ws/saveData.php on line 476
+[31-Jul-2016 04:19:58 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 485
+[31-Jul-2016 04:19:58 Etc/GMT] PHP Notice:  Undefined index: skName in /home/getmezej/public_html/ws/saveData.php on line 475
+[31-Jul-2016 04:19:58 Etc/GMT] PHP Notice:  Undefined index: skListPos in /home/getmezej/public_html/ws/saveData.php on line 476
+[31-Jul-2016 04:19:58 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 485
+[31-Jul-2016 04:20:15 Etc/GMT] PHP Notice:  Undefined index: skName in /home/getmezej/public_html/ws/saveData.php on line 475
+[31-Jul-2016 04:20:15 Etc/GMT] PHP Notice:  Undefined index: skListPos in /home/getmezej/public_html/ws/saveData.php on line 476
+[31-Jul-2016 04:20:15 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 485
+[31-Jul-2016 04:20:15 Etc/GMT] PHP Notice:  Undefined index: skName in /home/getmezej/public_html/ws/saveData.php on line 475
+[31-Jul-2016 04:20:15 Etc/GMT] PHP Notice:  Undefined index: skListPos in /home/getmezej/public_html/ws/saveData.php on line 476
+[31-Jul-2016 04:20:15 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 485
+[31-Jul-2016 04:22:55 Etc/GMT] PHP Notice:  Undefined index: skName in /home/getmezej/public_html/ws/saveData.php on line 451
+[31-Jul-2016 04:22:55 Etc/GMT] PHP Notice:  Undefined index: skListPos in /home/getmezej/public_html/ws/saveData.php on line 452
+[31-Jul-2016 04:22:55 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'skName' cannot be null' in /home/getmezej/public_html/ws/saveData.php:458
+Stack trace:
+#0 /home/getmezej/public_html/ws/saveData.php(458): PDOStatement->execute()
+#1 {main}
+  thrown in /home/getmezej/public_html/ws/saveData.php on line 458
+[31-Jul-2016 04:27:58 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 487
+[31-Jul-2016 04:27:58 Etc/GMT] PHP Notice:  Undefined variable: eid in /home/getmezej/public_html/ws/saveData.php on line 487
+[31-Jul-2016 04:38:22 Etc/GMT] PHP Notice:  Undefined index: data in /home/getmezej/public_html/ws/saveData.php on line 12
+[31-Jul-2016 05:54:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/getmezej/public_html/ws/saveData.php on line 570
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined index: key in /home/getmezej/public_html/ws/pdf2.php on line 5
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined index: key in /home/getmezej/public_html/ws/pdf2.php on line 8
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 15
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 15
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 19
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 19
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 24
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 24
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 29
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 29
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 34
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 34
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 39
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 39
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Undefined variable: user in /home/getmezej/public_html/ws/pdf2.php on line 44
+[31-Jul-2016 06:37:25 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/getmezej/public_html/ws/pdf2.php on line 44
+[31-Jul-2016 06:56:47 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 06:57:48 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 06:58:24 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 07:29:27 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 07:44:56 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 07:45:15 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 07:45:21 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 07:45:42 Etc/GMT] PHP Warning:  unlink( ../cv/pdf/47f547ca-4a9b-11e6-a92c-0cc47a6b12fe.pdf): No such file or directory in /home/getmezej/public_html/ws/savePDFv2.php on line 12
+[31-Jul-2016 07:55:18 Etc/GMT] PHP Notice:  Undefined variable: userObject in /home/getmezej/public_html/ws/pdf2.php on line 173
+[31-Jul-2016 07:55:18 Etc/GMT] PHP Notice:  Undefined variable: _SESSION in /home/getmezej/public_html/ws/pdf2.php on line 189
+[31-Jul-2016 09:05:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/pdf2.php on line 285
+[31-Jul-2016 09:06:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/pdf2.php on line 285
+[31-Jul-2016 09:06:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/pdf2.php on line 278
+[31-Jul-2016 09:06:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/pdf2.php on line 276
+[31-Jul-2016 09:06:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/getmezej/public_html/ws/pdf2.php on line 276
+[31-Jul-2016 09:14:55 Etc/GMT] PHP Notice:  Undefined index: Content in /home/getmezej/public_html/ws/saveData.php on line 500
+[01-Aug-2016 07:59:07 Etc/GMT] PHP Notice:  Undefined index: file in /home/getmezej/public_html/ws/profileimg.php on line 6
+[01-Aug-2016 07:59:07 Etc/GMT] PHP Notice:  Undefined index: file in /home/getmezej/public_html/ws/profileimg.php on line 32

@@ -1,0 +1,123 @@
+body {
+  font-family: sans-serif;
+}
+
+.break { page-break-before: always; }
+.container{
+	min-height: 834px;
+}
+img {
+	vertical-align: middle;
+}
+textarea {
+	width: 100%;
+	min-height: 200px;
+	font-size: 13px;
+	line-height: 19px;
+	border: 0 none white;
+	overflow: hidden;
+	padding: 0;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0);
+	resize: none;
+}
+.intro-title1 {
+	font-size: 36px;
+	color: #444444;
+	border-bottom: 1px solid #249991;
+	padding-bottom: 10px;
+	font-weight: 200;
+	margin-top: 15px;
+}
+.intro-title2 {
+  font-size: 18px;
+  color: #777777;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.profile-pic {
+	text-align: center;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	width: 210px;
+	height: 210px;
+	border: 5px solid #249991;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #fafafa;
+}
+.profile-pic img {
+	width: 188px;
+	height: 188px;
+	margin-top: 6px;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	overflow: hidden;
+}
+.color1 { color: #249991; }
+
+.line-content {
+    color: #555555;
+    font-size: 16px;
+}
+.section-item-title-1 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.graduation-date, .job-date {
+   display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+}
+.graduation_input {
+   width: 90%;
+}
+.graduation-time {
+  display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #999999;
+}
+.work_small { display: inline-block; }
+.work_small_input {
+  display: inline-block;
+  width: 120px;
+}
+
+
+
+.skills-list {
+    list-style: none;
+	padding: 0;
+    margin: 0px 10px;
+}
+.skill_name {
+	display: inline-block;
+	width: 75%;
+}
+.skill_mark {
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+}
+.h3_input, .h4_input {
+ background-color: rgba(0, 0, 0, 0);
+ line-height: 1.2;
+}
+.border-width-0 {
+ border-width: 0px;
+}
+.userdata {
+ font-size: 16px;
+}
+.zero{
+ padding:0px;    margin: 0;
+}

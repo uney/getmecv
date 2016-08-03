@@ -1,0 +1,3 @@
+2016-07-05 14:28:49		API debugConnection failed: SQLSTATE[HY000] [2005] Unknown MySQL server host 'DB_HOST' (2)
+2016-07-05 14:29:04		API debugConnection failed: SQLSTATE[HY000] [2005] Unknown MySQL server host 'DB_HOST' (0)
+2016-07-05 14:29:51		API debugConnection failed: SQLSTATE[HY000] [2005] Unknown MySQL server host 'DB_HOST' (0)
