@@ -1,0 +1,7 @@
+2016-Jul-Sun 11:45:41	SELECT `uid` FROM user WHERE skey = '47f547ca-4a9b-11e6-a92c-0cc47a6b12fe'
+2016-Jul-Sun 11:45:41	SELECT `eid` FROM education WHERE uid = '14'
+2016-Jul-Sun 11:45:41	UPDATE `education` SET `school_name`=:v1,`graduate_year`=:v2,`intro`=:v3,`type`=:v4,`major`=:v5,`list_position`=:v6 WHERE eid = :eid, :v1 :1, :v2 :January 2016, :v3 :1, :v4 :, :v5 :1, :v6 :0, :eid :127
+2016-Jul-Sun 11:45:41	INSERT INTO `education`(`uid`, `school_name`, `graduate_year`, `program_name`, `intro`, `type`, `major`, `list_position`) VALUES (:v1,:v2,:v3,:v4,:v5,:v6,:v7,:v8):v1 :14:v2 :2:v3 ::v4 ::v5 :2:v6 ::v7 :2:v8 :1
+2016-Jul-Sun 11:45:41	SELECT `eid` FROM education WHERE uid = :uid AND school_name = :v1 AND graduate_year = :v2:v1 :2:v2 ::uid :14
+2016-Jul-Sun 11:45:41	INSERT INTO `education`(`uid`, `school_name`, `graduate_year`, `program_name`, `intro`, `type`, `major`, `list_position`) VALUES (:v1,:v2,:v3,:v4,:v5,:v6,:v7,:v8):v1 :14:v2 :3:v3 ::v4 ::v5 :3:v6 ::v7 :3:v8 :2
+2016-Jul-Sun 11:45:41	SELECT `eid` FROM education WHERE uid = :uid AND school_name = :v1 AND graduate_year = :v2:v1 :3:v2 ::uid :14
